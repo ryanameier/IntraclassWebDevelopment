@@ -469,7 +469,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(desk_image_4portfolio.jpg);
+	background: url(/assets/desk_image_4portfolio.jpg);
 	background-color: #222;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -541,7 +541,7 @@ textarea.form-control {
 
 .side-image {
 	position: absolute;
-	background: url(founder.jpg) scroll center no-repeat;
+	background: url(/assets/founder.jpg) scroll center no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -1062,7 +1062,7 @@ button.mfp-close {
 
 #status,
 .status-mes {
-	background-image: url(../images/preloader.gif);
+	background-image: url(/assets/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
