@@ -1,16 +1,17 @@
 Rails.application.configure do
 
 
-  config.action_mailer.delivery_method = :smtp
+config.action_mailer.default_url_options = { :host => "my.website.com" }
+config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
-  address:              'smtp.gmail.com',
-  port:                 25, #587 or 25
-  domain:               'localhost:3000/',
-  user_name:            '<username>',
-  password:             '<password>',
-  authentication:       'plain',
-  enable_starttls_auto: true  }
-
+    address:              'smtp.gmail.com',
+    port:                 25,
+    domain:               'heroku.com',
+    user_name:            'rymei10@gmail.com',
+    password:             'lxeczriykzdrkusu',
+    authentication:       'plain',
+    enable_starttls_auto: true
+}
   # Settings specified here will take precedence over those in config/application.rb.
   # Code is not reloaded between requests.
   config.cache_classes = true
