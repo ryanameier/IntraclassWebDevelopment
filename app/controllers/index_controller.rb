@@ -26,4 +26,8 @@ class IndexController < ApplicationController
   def image2
 
   end
+
+  def components
+
+  end
 end

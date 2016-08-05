@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get '/index/slideshow2', to: 'index#slideshow2'
   get '/index/video2', to: 'index#video2'
   get '/index/image2', to: 'index#image2'
+  get '/index/components', to: 'index#components'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
