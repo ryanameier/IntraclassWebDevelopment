@@ -175,7 +175,6 @@
 					type: 'POST',
 					url: 'assets/php/contactForm.php',
 					dataType: 'json',
-					async: true
 					data: {
 						c_email: c_email,
 						c_name: c_name,
