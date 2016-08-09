@@ -21,8 +21,6 @@ gem "font-awesome-rails"
 gem 'simple_form'
 gem 'contact_us', '~> 1.0.1'
 
-ruby '2.3.1'
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
